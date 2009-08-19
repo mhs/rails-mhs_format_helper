@@ -1,4 +1,4 @@
-module FormatHelper
+module MutuallyHuman::Rails::FormatHelper
   include ActionView::Helpers::NumberHelper
   
   def date_format(date, format = :normal)

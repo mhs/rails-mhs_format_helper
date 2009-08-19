@@ -1,1 +1,1 @@
-require 'mhs_format_helper'
+require 'mutually_human/rails/format_helper'
