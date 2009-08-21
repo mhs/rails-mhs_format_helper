@@ -9,6 +9,10 @@ module MutuallyHuman::Rails::FormatHelper
         date.strftime("%B #{date.day}")
       elsif format == :long
         date.strftime("%B #{date.day}, %Y")
+      elsif format == :slashes
+        date.strftime("%m/%d/%y")
+      elsif format == :slashes_long
+        date.strftime("%m/%d/%Y")
       else
         date.strftime("%m-%d-%Y")
       end
